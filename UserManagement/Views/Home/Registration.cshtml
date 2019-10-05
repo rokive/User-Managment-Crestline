@@ -1,0 +1,97 @@
+﻿@model Entity.Models.UserInformation
+@{
+    ViewData["Title"] = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-sm-center justify-content-md-center">
+        <form class="col-12 col-sm-10 col-md-7 card" asp-action="Registration">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12 mt-3 text-center">
+                    <h6>User Registration</h6>
+                    <hr />
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label"></label><span class="required">*</span>
+                        <input type="email" asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label"></label><span class="required">*</span>
+                        <input type="password" asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="FirstName" class="control-label"></label><span class="required">*</span>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="LastName" class="control-label"></label><span class="required">*</span>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Address" class="control-label"></label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="PhoneNumber" class="control-label"></label><span class="required">*</span>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="SecurityQuestion" class="control-label"></label><span class="required">*</span>
+                        <input asp-for="SecurityQuestion" class="form-control" />
+                        <span asp-validation-for="SecurityQuestion" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Answer" class="control-label"></label><span class="required">*</span>
+                        <input asp-for="Answer" class="form-control" />
+                        <span asp-validation-for="Answer" class="text-danger"></span>
+                    </div>
+                </div>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <span class="text-danger error">@ViewBag.Error</span>
+                    </div>
+                }
+                <div class="col-12 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <input type="submit" id="btnSubmit" value="Save" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

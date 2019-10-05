@@ -1,0 +1,45 @@
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\MahmudulHassan\Documents\GitHub\API\Core\obj\Debug\netstandard2.0\Core.pdb
+G:\CLI Development\Project\ExamPreAdmin\API\Core\bin\Debug\netstandard2.0\Core.deps.json
+G:\CLI Development\Project\ExamPreAdmin\API\Core\bin\Debug\netstandard2.0\Core.dll
+G:\CLI Development\Project\ExamPreAdmin\API\Core\bin\Debug\netstandard2.0\Core.pdb
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.dll
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.pdb
+G:\CLI Development\Project\ExamPreAdmin\API\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+D:\Project\Practice Project\university project\API\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\Project\Practice Project\university project\API\Core\bin\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\university project\API\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\university project\API\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\bin\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\bin\Debug\netstandard2.0\Core.deps.json
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\bin\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\bin\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.dll
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.pdb
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache

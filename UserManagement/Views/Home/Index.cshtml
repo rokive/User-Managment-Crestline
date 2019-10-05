@@ -1,0 +1,21 @@
+﻿
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row justify-content-sm-center justify-content-md-center">
+        <div class="col-12 text-center">
+            @if (ViewBag.Error != null)
+            {
+                <h6 class="text-danger">@ViewBag.Error</h6>
+            }
+            @if (ViewBag.Success != null)
+            {
+                <h6 class="text-danger">@ViewBag.Success</h6>
+            }
+        </div>
+       
+    </div>
+</div>
