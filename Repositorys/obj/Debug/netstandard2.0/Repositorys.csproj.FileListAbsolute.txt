@@ -6,6 +6,7 @@ D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Re
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\DotNetCoreWithPostgreSql\Repositorys\bin\Debug\netstandard2.0\Repositorys.dll
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Repositorys.deps.json
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Repositorys.dll
+D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Repositorys.pdb
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Core.dll
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Entity.dll
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Core.pdb
@@ -15,6 +16,5 @@ D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\obj\Debug\netstandard2.0\Repositorys.AssemblyInfoInputs.cache
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\obj\Debug\netstandard2.0\Repositorys.AssemblyInfo.cs
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\obj\Debug\netstandard2.0\Repositorys.csproj.CopyComplete
-D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\bin\Debug\netstandard2.0\Repositorys.pdb
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\obj\Debug\netstandard2.0\Repositorys.dll
 D:\Project\Practice Project\DotNetCoreWithPostgreSQL\UserManagement\Repositorys\obj\Debug\netstandard2.0\Repositorys.pdb

@@ -2,9 +2,11 @@
 using Entity;
 using Entity.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,7 +28,12 @@ namespace Repositorys.DBContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(Constants.connection_string_name);
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+           .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../UserManagement"))
+           .AddJsonFile("appsettings.json")
+           .Build();
+            var builder = new DbContextOptionsBuilder<UMDbContext>();
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("UserManagementDB"));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

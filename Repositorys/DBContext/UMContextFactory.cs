@@ -1,8 +1,10 @@
 ﻿using Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace Repositorys.DBContext
@@ -16,8 +18,12 @@ namespace Repositorys.DBContext
 
         public UMDbContext CreateDbContext(string[] args)
         {
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+            .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../UserManagement"))
+            .AddJsonFile("appsettings.json")
+            .Build();
             var builder = new DbContextOptionsBuilder<UMDbContext>();
-            builder.UseSqlServer(Constants.connection_string_name,b=>b.MigrationsAssembly("UserManagement"));
+            builder.UseSqlServer(configuration.GetConnectionString("UserManagementDB"));
             return new UMDbContext(builder.Options);
         }
         

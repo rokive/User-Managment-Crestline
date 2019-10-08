@@ -30,8 +30,7 @@ namespace UserManagement
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<UMDbContext>(options => options.UseSqlServer(Constants.connection_string_name));
-
+            services.AddDbContext<UMDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UserManagementDB")));
             services.AddSingleton(new UMDbContext());
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IUserInformationService, UserInformationService>();

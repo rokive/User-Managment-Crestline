@@ -4751,7 +4751,8 @@
           "Core": "1.0.0",
           "Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.2.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
         },
         "compile": {
           "bin/placeholder/Repositorys.dll": {}
